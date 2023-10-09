@@ -22,7 +22,7 @@ Requiere tener instalado:
 
 > clone https://github.com/TABI-UNLP/pentaho-biserver.git \
 > cd pentaho-biserver  \
-> docker-compose up -d
+> docker compose up -d
 
 ## Uso
 
@@ -43,19 +43,19 @@ Postgres SQL:
 
 Si se necesita liberar recursos sin destruir los contenedores se puede hacer
 
-> docker-compose stop
+> docker compose stop
 
 ## Start
 
 Para volver a activarlos:
 
-> docker-compose stop
+> docker compose stop
 
 ## Down
 
 Para destruir los contenedores:
 
-> docker-compose down
+> docker compose down
 
 ## Carga de Datos
 
